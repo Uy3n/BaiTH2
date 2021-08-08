@@ -16,23 +16,28 @@ public class Ex6 {
             temp = a;
             a = b;
             b = temp;
-        } else if (a>c){
+        }
+        if (a>c){
             temp = a;
             a = c;
             c = temp;
-        } else if (a>d){
+        }
+        if (a>d){
             temp = a;
             a = d;
             d = temp;
-        } else if (b>c){
+        }
+        if (b>c){
             temp = b;
             b = c;
             c = temp;
-        } else if (b>d){
+        }
+        if (b>d){
             temp = b;
             b = d;
             d = temp;
-        } else if (c>d){
+        }
+        if (c>d){
             temp = c;
             c = d;
             d = temp;
